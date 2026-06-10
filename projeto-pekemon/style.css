@@ -1,0 +1,21 @@
+.p1 {
+    border-radius: 10px;
+    background-color: yellow;
+    height: 500px;
+    width: 400px;
+}
+.p2 {
+    border-radius: 10px;
+    background-color: rgb(252, 241, 140);
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}
+span {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+}
+p {
+    color: rgb(68, 66, 66);
+}
