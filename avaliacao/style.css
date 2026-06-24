@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fundo {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 80px;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    
+}
+
+.links {
+    
+    display: flex;
+    gap: 20px;
+}
+.links a {
+    text-decoration: none;
+}
+.link {
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #00C200;
+    background-color: #00C200;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+}
+.link:hover {
+    background-color: #ffffff;
+    border: 1px solid #00C200;
+    color: #00C200;
+}
+button {
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #00C200;
+    background-color: #00C200;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+button:hover {
+    background-image: url(./assets/carrinhoVerde.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    border: 1px solid #00C200;
+    color: #00C200;
+}
+.card {
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 290px;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.cards {
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0px;
+    width: 550px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+.card-img {
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+    width: 232px;
+    height: 122px;
+}
+.desc {
+    border-radius: 1px;
+    top: 15px;
+    right: 15px;
+    background-color:  #00C200;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 50px;
+    text-align: center;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+.stars {
+    padding-right: 10px;
+}
+.heart {
+    top: 35px;
+    left: 35px;
+}
