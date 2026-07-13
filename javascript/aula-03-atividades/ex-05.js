@@ -1,0 +1,7 @@
+let lista = []
+
+lista.push(0, 1, 2);
+
+lista.forEach(function(item,indice) {
+    console.log(`${indice + 1} - ${item}`)
+});
