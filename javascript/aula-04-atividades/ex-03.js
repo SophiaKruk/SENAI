@@ -7,4 +7,8 @@ let pessoa = {
 
 for (let chave in pessoa) {
     console.log(`${chave}: ${pessoa.chave}`)
-} 
+}
+
+let chave = 'idade';
+
+console.log(pessoa[chave]);
