@@ -11,8 +11,8 @@ biblioteca.forEach(function(livro) {
 }
 );
 
-console.log(Object.keys(0));
+console.log("Propriedades de primeiro livro: ", Object.keys(biblioteca[0]));
 
-for (let chaves in biblioteca(0)) {
-    console.log(`${chave}: ${biblioteca(0), (chave)}`)
+for(let chave in biblioteca[0]) {
+    console.log(`${chave}: ${biblioteca[0][chave]}`)
 };
