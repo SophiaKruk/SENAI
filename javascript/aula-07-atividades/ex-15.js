@@ -13,8 +13,12 @@ function subtr(a , b) {
 }
 console.log(subtr(1, 2))
 
-function divi(a , b) {
-    if(){
+function  dividir(a, b){
+    if( b === 0){
+        return "Erro: divisão por zero."
+    }else{
         return a / b
     }
 }
+let valor4 =  dividir(4, 3)
+console.log(valor4)
