@@ -1,0 +1,14 @@
+.btn {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(140, 0, 255);
+    color: rgb(172, 166, 229);
+    border: 2px solid rgb(77, 38, 95);
+    border-radius: 10px;
+}
+.is-active {
+    background-color: rgb(128, 0, 128);
+    width: 350px;
+    margin-left: 500px;
+    display: none;
+}
